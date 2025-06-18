@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teacher Contact App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Teacher Contact List</h1>
+    <input type="text" id="search" placeholder="Search by name..." />
+    <div id="teacher-list"></div>
+    <div id="admin-section" style="display: none;">
+      <h2>Admin Panel</h2>
+      <form id="add-form">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+        <input type="text" name="phone" placeholder="Phone" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <button type="submit">Add Teacher</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
